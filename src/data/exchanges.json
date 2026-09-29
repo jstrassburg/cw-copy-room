@@ -1,0 +1,129 @@
+[
+  {
+    "id": "casual-qso",
+    "title": "Typical casual QSO",
+    "tags": ["beginner", "ragchew"],
+    "transmissions": [
+      { "id": "casual-1", "cw": "CQ CQ CQ DE KD9DIH KD9DIH K", "translation": "Calling CQ from KD9DIH. Any station may answer." },
+      { "id": "casual-2", "cw": "KD9DIH DE W8ABC W8ABC K", "translation": "KD9DIH, this is W8ABC. Go ahead." },
+      { "id": "casual-3", "cw": "W8ABC DE KD9DIH = GE TNX FER CALL = UR RST 579 579 = QTH WI WI = HW CPY? W8ABC DE KD9DIH <KN>", "translation": "Good evening. Thanks for the call. Your RST is 579. My QTH is Wisconsin. How are you copying me? W8ABC, back to you only." },
+      { "id": "casual-4", "cw": "KD9DIH DE W8ABC = GE OM TNX RPRT = UR RST 589 589 = QTH OH OH = NAME BOB BOB = KD9DIH DE W8ABC <KN>", "translation": "Good evening. Thanks for the report. Your RST is 589. My QTH is Ohio. My name is Bob. Back to you." },
+      { "id": "casual-5", "cw": "W8ABC DE KD9DIH = R FB BOB TNX = 73 ES HPE CUAGN = W8ABC DE KD9DIH <KN>", "translation": "Roger, fine business Bob, thanks. Best regards and hope to see you again. Back to you." },
+      { "id": "casual-6", "cw": "KD9DIH DE W8ABC = TU FER QSO = 73 JIM = KD9DIH DE W8ABC <SK>", "translation": "Thank you for the QSO. Best regards, Jim. End of contact." }
+    ]
+  },
+  {
+    "id": "rig-antenna-power",
+    "title": "Rig, antenna, and power",
+    "tags": ["equipment", "ragchew"],
+    "transmissions": [
+      { "id": "rig-1", "cw": "CQ CQ CQ DE KD9DIH KD9DIH K", "translation": "General CQ." },
+      { "id": "rig-2", "cw": "KD9DIH DE K4RLC K", "translation": "K4RLC answering you." },
+      { "id": "rig-3", "cw": "K4RLC DE KD9DIH = GM TNX CALL = UR RST 599 599 = NAME JIM = QTH WI = RIG FT710 PWR 50W = ANT EFHW = HW? K4RLC DE KD9DIH <KN>", "translation": "Good morning. Thanks for the call. You are 599. Name is Jim, QTH Wisconsin. Rig is an FT-710, running 50 watts, antenna is an end-fed half-wave. How copy?" },
+      { "id": "rig-4", "cw": "KD9DIH DE K4RLC = R FB JIM = UR 589 589 = NAME TOM = QTH TN = RIG K3 PWR 100W = ANT DIPOLE UP 40 FT = FB SIG = KD9DIH DE K4RLC <KN>", "translation": "Roger, fine business Jim. You are 589. Name Tom, QTH Tennessee. Rig is a K3 at 100 watts. Antenna is a dipole 40 feet up. Fine signal." },
+      { "id": "rig-5", "cw": "K4RLC DE KD9DIH = FB TOM TNX INFO = NICE SIG HR = TNX QSO 73 K4RLC DE KD9DIH <SK>", "translation": "Fine business Tom, thanks for the information. Nice signal here. Thanks for the QSO and 73. End contact." }
+    ]
+  },
+  {
+    "id": "weak-signal",
+    "title": "Weak signal and repeats",
+    "tags": ["qsb", "repeat", "break-in"],
+    "transmissions": [
+      { "id": "weak-1", "cw": "CQ CQ CQ DE KD9DIH KD9DIH K", "translation": "Calling CQ." },
+      { "id": "weak-2", "cw": "KD9DIH DE W3MTR W3MTR K", "translation": "W3MTR answering." },
+      { "id": "weak-3", "cw": "W3MTR DE KD9DIH = TNX CALL = UR RST 449 449 = SIG QSB = NAME JIM = QTH WI = HW? W3MTR DE KD9DIH <KN>", "translation": "Thanks for the call. You are 449. Your signal is fading. Name Jim, QTH Wisconsin. How copy?" },
+      { "id": "weak-4", "cw": "KD9DIH DE W3MTR = R R = UR 559 559 = SRI QSB HR ALSO = NAME ? NAME ? PSE AGN <BK>", "translation": "Roger. You are 559. Sorry, there is fading here too. Please repeat your name. Break." },
+      { "id": "weak-5", "cw": "<BK> NAME JIM JIM = JIM <BK>", "translation": "Break. Name is Jim, Jim. Break." },
+      { "id": "weak-6", "cw": "<BK> R R JIM TNX = NAME HR DAVE DAVE = QTH PA = <BK>", "translation": "Roger, got it, Jim. Thanks. My name is Dave, QTH Pennsylvania. Break." },
+      { "id": "weak-7", "cw": "<BK> R DAVE TNX = QSB BAD NW = TNX QSO 73 ES GUD DX = W3MTR DE KD9DIH <SK>", "translation": "Roger Dave, thanks. Fading is bad now. Thanks for the QSO, 73, and good DX. End contact." }
+    ]
+  },
+  {
+    "id": "slow-down",
+    "title": "Please slow down",
+    "tags": ["qrs", "beginner"],
+    "transmissions": [
+      { "id": "slow-1", "cw": "CQ CQ CQ DE KD9DIH KD9DIH K", "translation": "Calling CQ." },
+      { "id": "slow-2", "cw": "KD9DIH DE N2XYZ N2XYZ K", "translation": "N2XYZ responds." },
+      { "id": "slow-3", "cw": "N2XYZ DE KD9DIH = GE TNX CALL = PSE QRS QRS = NEW CW OP HR = N2XYZ DE KD9DIH <KN>", "translation": "Good evening, thanks for the call. Please send slower. I am a new CW operator here. Back to you." },
+      { "id": "slow-4", "cw": "KD9DIH DE N2XYZ = R R QRS = NO PROB OM = UR RST 579 = NAME MIKE = QTH NY = HW? KD9DIH DE N2XYZ <KN>", "translation": "Roger, slowing down. No problem. You are 579. Name Mike, QTH New York. How copy?" },
+      { "id": "slow-5", "cw": "N2XYZ DE KD9DIH = R FB MIKE = UR RST 589 = TNX FER QRS = NAME JIM QTH WI = N2XYZ DE KD9DIH <KN>", "translation": "Roger, fine business Mike. You are 589. Thanks for slowing down. Name Jim, QTH Wisconsin." },
+      { "id": "slow-6", "cw": "KD9DIH DE N2XYZ = FB JIM = KEEP CW = CUAGN 73 KD9DIH DE N2XYZ <SK>", "translation": "Fine business Jim. Keep at CW. See you again, 73. End contact." }
+    ]
+  },
+  {
+    "id": "dx-contact",
+    "title": "Short DX contact",
+    "tags": ["dx", "rubber-stamp"],
+    "transmissions": [
+      { "id": "dx-1", "cw": "CQ CQ DX DE DL7ABC DL7ABC K", "translation": "DL7ABC in Germany is calling CQ DX." },
+      { "id": "dx-2", "cw": "DL7ABC DE KD9DIH KD9DIH K", "translation": "KD9DIH answering." },
+      { "id": "dx-3", "cw": "KD9DIH DE DL7ABC = GM UR 559 559 = QTH BERLIN = OP HANS = KD9DIH DE DL7ABC <KN>", "translation": "Good morning. You are 559. QTH Berlin. Operator Hans. Back to you." },
+      { "id": "dx-4", "cw": "DL7ABC DE KD9DIH = R TNX HANS = UR 579 579 = QTH WI = OP JIM = TNX QSO 73 DL7ABC DE KD9DIH <KN>", "translation": "Roger, thanks Hans. You are 579. QTH Wisconsin. Operator Jim. Thanks for the QSO, 73." },
+      { "id": "dx-5", "cw": "KD9DIH DE DL7ABC = TU 73 <SK>", "translation": "Thank you, 73, end contact." }
+    ]
+  },
+  {
+    "id": "static-repeat",
+    "title": "Static and missed information",
+    "tags": ["qrn", "repeat"],
+    "transmissions": [
+      { "id": "static-1", "cw": "W1MOR DE KD9DIH = GE = UR RST 559 = QRN HR = NAME JIM = QTH WI = HW? W1MOR DE KD9DIH <KN>", "translation": "Good evening. You are 559. I have static here. Name Jim, QTH Wisconsin. How copy?" },
+      { "id": "static-2", "cw": "KD9DIH DE W1MOR = R JIM = UR 579 = NAME AL = QTH VT = WX COLD TEMP 35F = KD9DIH DE W1MOR <KN>", "translation": "Roger Jim. You are 579. Name Al, QTH Vermont. Weather is cold, temperature 35 degrees Fahrenheit." },
+      { "id": "static-3", "cw": "W1MOR DE KD9DIH = SRI QRN = QTH? QTH? PSE AGN <BK>", "translation": "Sorry, static interference. Please repeat your QTH. Break." },
+      { "id": "static-4", "cw": "<BK> QTH VT VT = VERMONT <BK>", "translation": "QTH Vermont, Vermont. Break." },
+      { "id": "static-5", "cw": "<BK> R R VT = TNX AL = WX HR CLR ES 50F = TNX QSO 73 W1MOR DE KD9DIH <SK>", "translation": "Roger, Vermont copied. Thanks Al. Weather here is clear and 50 degrees Fahrenheit. Thanks for the QSO, 73, end contact." }
+    ]
+  },
+  {
+    "id": "qrp-contact",
+    "title": "QRP contact",
+    "tags": ["qrp", "equipment"],
+    "transmissions": [
+      { "id": "qrp-1", "cw": "CQ CQ CQ DE KD9DIH/QRP KD9DIH/QRP K", "translation": "KD9DIH calling CQ while operating QRP." },
+      { "id": "qrp-2", "cw": "KD9DIH/QRP DE K8CW K", "translation": "K8CW answers." },
+      { "id": "qrp-3", "cw": "K8CW DE KD9DIH/QRP = TNX CALL = UR 579 = PWR HR 5W 5W = RIG FT710 = ANT DIPOLE = HW? K8CW DE KD9DIH/QRP <KN>", "translation": "Thanks for the call. You are 579. I am running 5 watts, using an FT-710 and dipole. How copy?" },
+      { "id": "qrp-4", "cw": "KD9DIH/QRP DE K8CW = FB JIM = UR 559 559 = GUD SIG FER 5W = PWR HR 100W = ANT YAGI = KD9DIH/QRP DE K8CW <KN>", "translation": "Fine business Jim. You are 559. Good signal for 5 watts. I am running 100 watts into a Yagi." },
+      { "id": "qrp-5", "cw": "K8CW DE KD9DIH/QRP = R TNX FB RPRT = 73 ES GUD DX = K8CW DE KD9DIH/QRP <SK>", "translation": "Roger, thanks for the good report. 73 and good DX. End contact." }
+    ]
+  },
+  {
+    "id": "frequency-change",
+    "title": "Interference and frequency change",
+    "tags": ["qrm", "qsy"],
+    "transmissions": [
+      { "id": "freq-1", "cw": "W8ABC DE KD9DIH = QRM BAD HR = PSE QSY UP 2 = W8ABC DE KD9DIH <KN>", "translation": "W8ABC, interference is bad here. Please move up 2 kilohertz. Back to you." },
+      { "id": "freq-2", "cw": "KD9DIH DE W8ABC = R QSY UP 2 = CU THERE <SK>", "translation": "Roger. Moving up 2 kilohertz. See you there. End contact." }
+    ]
+  },
+  {
+    "id": "multiple-callers",
+    "title": "Multiple callers",
+    "tags": ["qrz", "pileup"],
+    "transmissions": [
+      { "id": "callers-1", "cw": "QRZ? QRZ? DE DL7ABC K", "translation": "Who is calling me? This is DL7ABC. Go ahead." },
+      { "id": "callers-2", "cw": "KD9DIH KD9DIH", "translation": "KD9DIH calls twice." },
+      { "id": "callers-3", "cw": "KD9DIH 599 = QSL? <KN>", "translation": "KD9DIH, you are 599. Did you copy? Back to you only." }
+    ]
+  },
+  {
+    "id": "portable-contact",
+    "title": "Portable contact",
+    "tags": ["portable", "equipment"],
+    "transmissions": [
+      { "id": "portable-1", "cw": "CQ CQ DE K8CW/P K8CW/P K", "translation": "K8CW is calling CQ while operating portable." },
+      { "id": "portable-2", "cw": "KD9DIH DE K8CW/P = UR 579 = PWR 10W = ANT WIRE = WX FB = KD9DIH DE K8CW/P <KN>", "translation": "KD9DIH, you are 579. I am running 10 watts to a wire antenna. The weather is fine. Back to you." }
+    ]
+  },
+  {
+    "id": "contest-contact",
+    "title": "Concise contest contact",
+    "tags": ["contest", "fast"],
+    "transmissions": [
+      { "id": "contest-1", "cw": "CQ TEST DE W8ABC W8ABC K", "translation": "W8ABC is calling for contest contacts." },
+      { "id": "contest-2", "cw": "W8ABC DE KD9DIH", "translation": "KD9DIH answers W8ABC." },
+      { "id": "contest-3", "cw": "KD9DIH 5NN WI", "translation": "KD9DIH, your report is 599 and my location is Wisconsin." },
+      { "id": "contest-4", "cw": "R 5NN WI TU", "translation": "Roger, your report is 599 and my location is Wisconsin. Thank you." }
+    ]
+  }
+]
